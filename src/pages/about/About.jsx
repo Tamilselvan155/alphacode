@@ -4,6 +4,7 @@ import HeroSection from './HeroSection';
 import CompanyOverview from './CompanyOverview';
 import WhatWeAre from './WhatWeAre';
 import WhyChoose from './WhyChoose';
+import Logo from '../../components/Logo';
 
 // Animation variants
 const sectionVariants = {
@@ -89,6 +90,9 @@ const About = () => {
 
   return (
     <div className="overflow-x-hidden">
+      <div className="absolute top-6 left-6 z-30">
+<Logo />
+</div>
       <HeroSection />
       <CompanyOverview />
       <WhatWeAre />

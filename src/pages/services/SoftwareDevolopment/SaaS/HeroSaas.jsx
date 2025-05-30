@@ -1,11 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import saasAi from "/src/assets/img/saas.jpg"; // Ensure the image path is correct
+import Logo from '../../../../components/Logo';
 
 const HeroSaaS = () => {
     return (
         <div className="relative bg-navy-900 min-h-screen flex items-center overflow-hidden">
             
+            {/* Logo */}
+            <div className="absolute top-6 left-6 z-30">
+                <Logo />
+            </div>
+
             {/* Background Image */}
             <div className="absolute inset-0 w-full h-full">
                 <img
@@ -46,7 +52,7 @@ const HeroSaaS = () => {
                         transition={{ delay: 0.7 }}
                         className="text-white text-sm sm:text-base md:text-lg leading-relaxed mb-6 sm:mb-8"
                     >
-                        In 2025, the future is cloud-powered, and our SaaS Development Services at Alphacode  bring it to life. We craft cloud-based software that’s scalable, secure, and subscription-ready—custom-built to fuel your business and delight your users. From startups to enterprises, our expert team delivers SaaS solutions that drive efficiency, cut costs, and unlock growth. Ready to launch your next big thing in the cloud? Let’s build it together.
+                        In 2025, the future is cloud-powered, and our SaaS Development Services at Tekvian  bring it to life. We craft cloud-based software that's scalable, secure, and subscription-ready—custom-built to fuel your business and delight your users. From startups to enterprises, our expert team delivers SaaS solutions that drive efficiency, cut costs, and unlock growth. Ready to launch your next big thing in the cloud? Let's build it together.
                     </motion.p>
 
                     {/* Contact Button */}

@@ -10,7 +10,7 @@ export default function FAQSection() {
         {
             question: "How can I hire SaaS developers for my project?",
             answer:
-                "You can hire SaaS developers through Alphacode's dedicated team service, or via freelance platforms, agencies, or staffing firms specializing in SaaS.",
+                "You can hire SaaS developers through Tekvian's dedicated team service, or via freelance platforms, agencies, or staffing firms specializing in SaaS.",
         },
         {
             question: "What are SaaS consulting services and how they can benefit my business?",
@@ -20,7 +20,7 @@ export default function FAQSection() {
         {
             question: "How long does it take to develop a SaaS application?",
             answer:
-                "Typical SaaS projects can take between 3 to 9 months depending on complexity, features, and team size. Alphacode helps you speed up time to market.",
+                "Typical SaaS projects can take between 3 to 9 months depending on complexity, features, and team size. Tekvian helps you speed up time to market.",
         },
         {
             question: "What technologies are used in SaaS development?",
@@ -30,7 +30,7 @@ export default function FAQSection() {
         {
             question: "Is post-launch support available for SaaS products?",
             answer:
-                "Yes! Ongoing maintenance, scaling, feature updates, and technical support are critical parts of SaaS success and are included in Alphacode’s services.",
+                "Yes! Ongoing maintenance, scaling, feature updates, and technical support are critical parts of SaaS success and are included in Tekvian’s services.",
         },
         {
             question: "Can you migrate an existing app into a SaaS model?",

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import automationImg from "/src/assets/img/industries.webp"; // Using manual-testing.png as a temporary image
 import { MdArrowOutward } from "react-icons/md";
+import Logo from '../../components/Logo';
 
 // Example icons for Automation Testing stack (placeholder SVGs)
 const SeleniumIcon = () => (
@@ -116,6 +117,11 @@ const AutomationTesting = () => {
     <div className="relative bg-navy-900 min-h-screen flex flex-col overflow-hidden">
       {/* Hero Section */}
       <div className="relative min-h-screen flex items-center">
+        {/* Logo */}
+        <div className="absolute top-6 left-6 z-30">
+          <Logo />
+        </div>
+
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <img

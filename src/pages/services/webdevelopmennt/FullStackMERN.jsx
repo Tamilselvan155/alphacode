@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import mernimg from "/src/assets/img/TeamWorking.jpg"; // Using TeamWorking.jpg as a temporary replacement
 import { MdArrowOutward } from "react-icons/md";
+import Logo from '../../../components/Logo';
 
 // Example service icons for MERN stack (you can replace with real icons/SVGs)
 const MongoDBIcon = () => (
@@ -113,6 +114,11 @@ const FullStackMERN = () => {
     <div className="relative bg-navy-900 min-h-screen flex flex-col overflow-hidden">
       {/* Hero Section */}
       <div className="relative min-h-screen flex items-center">
+        {/* Logo */}
+        <div className="absolute top-6 left-6 z-30">
+          <Logo />
+        </div>
+
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <img

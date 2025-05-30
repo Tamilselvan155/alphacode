@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { ChevronRight } from 'lucide-react';
 import { useDrawer } from '../../context/DrawerContext';
+import Logo from '../../components/Logo';
 
 export default function HeroSection() {
   const [activeContent, setActiveContent] = useState(0);
@@ -79,13 +80,13 @@ export default function HeroSection() {
         };
 
         video.onerror = (error) => {
-          console.error("Video loading error:", error);
+          console.error("Video loading error:", error); 
           setIsVideoLoaded(false);
         };
 
         await video.load();
       } catch (error) {
-        console.error("Video initialization failed:", error);
+        console.error("Video initialization failed:",  error);
         setIsVideoLoaded(false);
       }
     };
@@ -119,6 +120,11 @@ export default function HeroSection() {
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
+      {/* Logo */}
+      <div className="absolute top-6 left-6 z-30">
+        <Logo />
+      </div>
+
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video
@@ -131,7 +137,7 @@ export default function HeroSection() {
           preload="auto"
           poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='1080'%3E%3Crect width='100%25' height='100%25' fill='%23000'/%3E%3C/svg%3E"
         >
-          <source src="/src/assets/hpV.mp4" type="video/mp4" />
+          <source src="/src/assets/homeVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         

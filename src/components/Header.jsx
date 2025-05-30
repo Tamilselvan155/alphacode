@@ -141,21 +141,25 @@ const Header = () => {
           
           {/* Right Column (Contact Info) */}
           <div className="flex-1 flex flex-col justify-center text-base pr-16 max-w-lg relative z-10 md:p-2 gap-20">
-            <div>
-              <p className="uppercase font-bold text-xs mb-2 text-white">Visit Us</p>
-              <p>
-                <strong>ALPHACODE PRIVATE LIMITED</strong><br />
-                <Link to="#" className="text-white underline leading-relaxed">
-                  No:04,Ground Floor,<br />TIDEL Park,<br />Rajiv Gandhi Salai,<br />Tharamani,
-                  <br />Chennai -113
-                </Link>
-              </p>
-            </div>
+          <div>
+  <p className="uppercase font-bold text-xs mb-2 text-white">Visit Us</p>
+  <p>
+    <strong>TEKVIAN PRIVATE LIMITED</strong><br />
+    <Link to="#" className="text-white underline leading-relaxed">
+      No:14, First Floor,<br />
+      Spencer Plaza,<br />
+      Anna Salai,<br />
+      Mount Road,<br />
+      Chennai - 600002
+    </Link>
+  </p>
+</div>
+
             
             <div>
               <p className="uppercase font-bold text-xs mb-2 text-white">Write To Us</p>
-              <Link to={"mailto:info@Alphacode.ai"} className="text-white underline leading-relaxed">
-                info@Alphacode.ai
+              <Link to={"mailto:info@Tekvian.ai"} className="text-white underline leading-relaxed">
+                info@Tekvian.ai
               </Link>
             </div>
             

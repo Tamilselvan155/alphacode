@@ -222,7 +222,7 @@ export default function PrivacyPolicySection() {
           
           <div className="ml-2 text-gray-700">
             <p>
-              Our website may contain links to third-party websites. This Privacy Policy applies only to Alphacode website and services. We are not responsible for the privacy practices or content of external sites, and we encourage you to review their privacy policies.
+              Our website may contain links to third-party websites. This Privacy Policy applies only to Tekvian website and services. We are not responsible for the privacy practices or content of external sites, and we encourage you to review their privacy policies.
             </p>
           </div>
         </div>

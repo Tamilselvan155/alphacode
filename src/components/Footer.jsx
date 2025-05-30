@@ -58,7 +58,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center">
                   <span className="mr-3 text-xl">📧</span>
-                  <a href="mailto:info@Alphacode.ai" className="hover:text-blue-500">info@Alphacode.ai</a>
+                  <a href="mailto:info@Tekvian.ai" className="hover:text-blue-500">info@Tekvian.ai</a>
                 </li>
               </ul>
             </div>
@@ -79,7 +79,7 @@ export default function Footer() {
               <Link to={"/privacy-policy"} className="hover:text-blue-500">Standard Policies</Link >
             </div>
             <div className="text-center md:text-right">
-              <p className="text-sm sm:text-lg font-semibold mb-0">Copyright © 2025 Alphacode , All Rights Reserved.</p>
+              <p className="text-sm sm:text-lg font-semibold mb-0">Copyright © 2025 Tekvian , All Rights Reserved.</p>
             </div>
           </div>
         </div>

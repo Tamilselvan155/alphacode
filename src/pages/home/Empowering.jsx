@@ -161,7 +161,7 @@ export default function BusinessSoftwarePage() {
           Empowering Business with Future-Ready Solutions
         </h1>
         <p className="text-gray-800 max-w-4xl mx-auto text-base md:text-lg">
-          At Alphacode, we drive digital transformation through our cutting-edge solutions.
+          At Tekvian, we drive digital transformation through our cutting-edge solutions.
           Our services are designed to automate workflows, enhance efficiency, and empower businesses to stay competitive.
         </p>
       </div>

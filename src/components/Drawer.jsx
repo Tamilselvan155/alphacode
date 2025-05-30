@@ -268,7 +268,7 @@ const Drawer = ({ isOpen, onClose, onSubmit }) => {
 
       <div className="bg-white w-[65%] h-full overflow-y-auto shadow-xl animate-slide-in transition-all relative">
       <div className="absolute top-4 left-4 z-50 p-4 bg-white/40 backdrop-blur-sm">
-      <div className="text-2xl font-bold">Alphacode</div>
+      <div className="text-2xl font-bold">Tekvian</div>
     </div>
 
         <div className="relative bg-white rounded-lg shadow-lg p-8 min-h-screen flex flex-col p-4 md:p-16 pt-5 md:pt-12">

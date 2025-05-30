@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import awsimg from "/src/assets/img/awsCloud.jpg";
 import { MdArrowOutward } from "react-icons/md";
+import Logo from '../../../../components/Logo';
 
 // Service icons - in a real implementation, you'd import actual SVGs
 const CodePipelineIcon = () => (
@@ -138,6 +139,11 @@ const Aws = () => {
     <div className="relative bg-navy-900 min-h-screen flex flex-col overflow-hidden">
       {/* Hero Section */}
       <div className="relative min-h-screen flex items-center">
+        {/* Logo */}
+        <div className="absolute top-6 left-6 z-30">
+          <Logo />
+        </div>
+
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <img
@@ -259,7 +265,7 @@ const Aws = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold text-[#b5824e] mb-4">
-            Why Choose Alphacode for AWS
+            Why Choose Tekvian for AWS
           </h2>
           <p className="text-black max-w-3xl mx-auto">
             Choosing the right partner for your AWS DevOps journey can make the difference between fast, scalable innovation and costly delays. Here's why our firm stands out as your ideal AWS DevOps partner
@@ -339,7 +345,7 @@ const Aws = () => {
             className="px-6 py-2 bg-white rounded-lg"
           >
             <p className="text-gray-700 mb-4 text-sm">
-              At Alphacode, We design with security in mind — integrating IAM, encryption, compliance, and DevSecOps practices from day one to protect your applications and data on AWS.
+              At Tekvian, We design with security in mind — integrating IAM, encryption, compliance, and DevSecOps practices from day one to protect your applications and data on AWS.
             </p>
             <p className="text-gray-700 text-sm">
               We help you architect for scalability while optimizing cloud costs through right-sized infrastructure, auto-scaling, and intelligent resource provisioning.

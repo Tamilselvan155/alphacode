@@ -22,7 +22,7 @@ export default function WhyChooseVAccel() {
       <section className="py-10 sm:py-16 md:py-20 bg-gradient-to-br from-blue-900 via-purple-800 to-purple-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#b5824e] mb-10 sm:mb-12 md:mb-16">
-            Why Choose Alphacode for SaaS Development Services?
+            Why Choose Tekvian for SaaS Development Services?
           </h2>
   
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">

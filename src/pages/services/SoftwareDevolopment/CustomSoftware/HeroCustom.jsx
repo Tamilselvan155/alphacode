@@ -1,10 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import saasAi from "/src/assets/img/realEstate.png"; // Make sure the image path is correct
+import Logo from '../../../../components/Logo';
 
 const HeroCustom = () => {
     return (
         <div className="relative bg-navy-900 min-h-screen flex items-center overflow-hidden">
+
+<div className="absolute top-6 left-6 z-30">
+<Logo />
+</div>
             
             {/* Background Image */}
             <div className="absolute inset-0 w-full h-full">
@@ -46,11 +51,11 @@ const HeroCustom = () => {
                         transition={{ delay: 0.7 }}
                         className="text-white text-base sm:text-lg md:text-xl leading-relaxed mb-8 sm:mb-10"
                     >
-                        In 2025, generic software won’t keep you ahead our Custom Software Solutions will. 
-                        At Alphacode, we build tailored technology that fits your unique needs, driving efficiency, 
+                        In 2025, generic software won't keep you ahead our Custom Software Solutions will. 
+                        At Tekvian, we build tailored technology that fits your unique needs, driving efficiency, 
                         growth, and innovation. Specializing in CRM, HRMS, ERP, and CMS, our expert team delivers 
                         scalable, future-ready systems that transform how you work. Ready to power your business 
-                        with custom brilliance? Let’s get started.
+                        with custom brilliance? Let's get started.
                     </motion.p>
 
                     {/* Contact Button */}

@@ -27,7 +27,7 @@ function OutManualTesting() {
             visible: { opacity: 1, transition: { delay: 0.3, duration: 0.8 } }
           }}
           className="text-gray-600 text-lg"
-        >Alphacode ensures that each unit of the software is operable with its highest potential. So, we offer a wide range of testing methods that analyze the digital solutions inside out and bru.
+        >Tekvian ensures that each unit of the software is operable with its highest potential. So, we offer a wide range of testing methods that analyze the digital solutions inside out and bru.
         </motion.p>
       </div>
 

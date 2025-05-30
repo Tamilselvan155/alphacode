@@ -48,7 +48,7 @@ const HeroSection = () => {
             transition={{ delay: 0.9, duration: 0.8 }}
             className="text-white text-base sm:text-lg mb-6 sm:mb-8 max-w-md mx-auto sm:mx-0 px-4 sm:px-0"
           >
-           At Alphacode Private Limited (referred to as Alphacode), we value your privacy. This Privacy Policy describes the types of personal information we collect and how we use, store, and protect it. By using our services, accessing our products, or visiting our website, you agree to the terms outlined in this policy.
+           At Tekvian Private Limited (referred to as Tekvian), we value your privacy. This Privacy Policy describes the types of personal information we collect and how we use, store, and protect it. By using our services, accessing our products, or visiting our website, you agree to the terms outlined in this policy.
           </motion.p>
 
           <motion.button 

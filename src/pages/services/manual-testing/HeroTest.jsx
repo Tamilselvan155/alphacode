@@ -1,11 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import image from '../../../assets/img/manual-testing.png';
+import Logo from '../../../components/Logo';
 
 function HeroTest() {
   return (
     <div className="relative bg-navy-900 h-screen flex items-center justify-start overflow-hidden">
       
+      {/* Logo */}
+      <div className="absolute top-6 left-6 z-30">
+        <Logo />
+      </div>
+
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full opacity-70">
         <img

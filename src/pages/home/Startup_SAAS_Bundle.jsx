@@ -18,10 +18,10 @@ export default function StartupSaasBundle() {
             SaaS Bundle
           </h2>
           <p className="text-gray-700 text-xl mt-2 px-4 max-w-4xl mx-auto">
-            {selectedSection === 'HRMS' && 'Alphacode delivers a robust HRMS package designed to simplify HR operations, boost productivity, and enhance employee experience with fully integrated solutions.'}
-            {selectedSection === 'CRM' && 'Alphacode delivers a powerful CRM package to streamline customer relationships, improve sales processes, and drive business growth with fully integrated solutions.'}
-            {selectedSection === 'Project Management' && 'Alphacode offers a comprehensive Project Management package to help teams collaborate, stay organized, and achieve project success with fully integrated solutions.'}
-            {selectedSection === 'Account Management' && 'Alphacode provides an efficient Account Management package to simplify financial operations, ensure compliance, and drive financial success with fully integrated solutions.'}
+            {selectedSection === 'HRMS' && 'Tekvian delivers a robust HRMS package designed to simplify HR operations, boost productivity, and enhance employee experience with fully integrated solutions.'}
+            {selectedSection === 'CRM' && 'Tekvian delivers a powerful CRM package to streamline customer relationships, improve sales processes, and drive business growth with fully integrated solutions.'}
+            {selectedSection === 'Project Management' && 'Tekvian offers a comprehensive Project Management package to help teams collaborate, stay organized, and achieve project success with fully integrated solutions.'}
+            {selectedSection === 'Account Management' && 'Tekvian provides an efficient Account Management package to simplify financial operations, ensure compliance, and drive financial success with fully integrated solutions.'}
           </p>
         </div>
 

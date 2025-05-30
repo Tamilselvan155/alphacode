@@ -41,7 +41,7 @@
 //           transition={{ delay: 0.7, duration: 0.8 }}
 //           className="mt-4 text-black"
 //         >
-//           At Alphacode, we empower businesses with <span className="font-medium">cutting-edge, AI-powered SaaS solutions</span> 
+//           At Tekvian, we empower businesses with <span className="font-medium">cutting-edge, AI-powered SaaS solutions</span> 
 //           built for performance, automation, and growth. As a trusted leader in AI-SaaS applications, we provide intelligent, 
 //           integrative software that aligns with your goals. Driven by innovation, we deliver smart automation, actionable insights, 
 //           and seamless cloud integration—helping you stay competitive and future-ready in today's fast-moving digital world.
@@ -113,7 +113,7 @@ const CompanyOverview = () => {
           transition={{ delay: 0.7, duration: 0.8 }}
           className="mt-4 text-black text-center md:text-left"
         >
-          At Alphacode, we empower businesses with <span className="font-medium">cutting-edge, AI-powered SaaS solutions</span> 
+          At Tekvian, we empower businesses with <span className="font-medium">cutting-edge, AI-powered SaaS solutions</span> 
           built for performance, automation, and growth. As a trusted leader in AI-SaaS applications, we provide intelligent, 
           integrative software that aligns with your goals. Driven by innovation, we deliver smart automation, actionable insights, 
           and seamless cloud integration—helping you stay competitive and future-ready in today's fast-moving digital world.

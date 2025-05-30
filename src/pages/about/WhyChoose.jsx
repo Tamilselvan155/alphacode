@@ -44,7 +44,7 @@ const WhyChoose = () => {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 text-[#b5824e]"
         >
-          Why choose Alphacode?
+          Why choose Tekvian?
         </motion.h2>
 
         <motion.div
