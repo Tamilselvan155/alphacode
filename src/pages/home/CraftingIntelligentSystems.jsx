@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { ChevronRight } from 'lucide-react';
 import { useDrawer } from '../../context/DrawerContext';
 import Logo from '../../components/Logo';
+import homeimg from '../../assets/img/awsCloud.jpg'; // Import your custom styles
 
 export default function HeroSection() {
   const [activeContent, setActiveContent] = useState(0);
@@ -140,15 +141,16 @@ export default function HeroSection() {
           <source src="/src/assets/homeVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        {/* <img src={homeimg} alt="" /> */}
         
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/50 z-10" />
       </div>
 
       {/* Loading indicator for video */}
-      <div className={`absolute inset-0 z-30 bg-black flex items-center justify-center transition-opacity duration-500 ${isVideoLoaded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+      {/* <div className={`absolute inset-0 z-30 bg-black flex items-center justify-center transition-opacity duration-500 ${isVideoLoaded ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
         <div className="text-white text-xl">Loading...</div>
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-4">
